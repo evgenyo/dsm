@@ -105,18 +105,18 @@
         } else if (inputValue.length === 5 && inputValue.match(/\d+/g)) {
             activateLoading();
             xmlRequest("zip");
-        } else if (inputValue.split(" ")[0][0] === inputValue.split(" ")[0][0].toUpperCase()) {
-            activateLoading();
-            xmlRequest("person");
-        } else if ((inputValue.length > 0) && (inputValue.split(" ").length === 1) && (inputValue === inputValue.toLowerCase())) {
-            activateLoading();
-            xmlRequest("word");
         } else if ((inputValue.length > 0) && (inputValue.split(" ").length === 1) && (inputValue === inputValue.toUpperCase())) {
             activateLoading();
             xmlRequest("acronym");
         } else if (inputValue.match(/\d+/g)) {
             activateLoading();
             xmlRequest("unit");
+        } else if (inputValue.split(" ")[0][0] === inputValue.split(" ")[0][0].toUpperCase()) {
+            activateLoading();
+            xmlRequest("person");
+        } else if ((inputValue.length > 0) && (inputValue.split(" ").length === 1) && (inputValue === inputValue.toLowerCase())) {
+            activateLoading();
+            xmlRequest("word");
         } else {
             invalidInput();
         };;
