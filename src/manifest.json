@@ -1,0 +1,33 @@
+{
+    "name": "__MSG_extName__",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "description": "__MSG_extDescription__",
+    "homepage_url": "http://github.com/evgenyo/dsm",
+    "icons": {
+        "16": "icons/favicon-16x16.png",
+        "32": "icons/favicon-32x32.png",
+        "96": "icons/favicon-96x96.png",
+        "144": "icons/android-icon-144x144.png",
+        "192": "icons/android-icon-192x192.png"
+    },
+    "browser_action": {
+        "default_icon": "icons/dsm.png",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["js/highlighter.js"],
+        "run_at": "document_start",
+        "all_frames": true
+    }],
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "*://*.wolframalpha.com/*"
+    ],
+    "default_locale": "en"
+}

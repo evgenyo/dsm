@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message":"DSM"
+    ,"description":"Extension name."
+  }
+  ,"extDescription": {
+    "message":"Quick access for word definitions, unit conversions and more."
+    ,"description":"Extension description."
+  }
+}

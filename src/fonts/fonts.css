@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'MSLT';
+	src: url('fonts/ntailub.eot');
+	src: local('☺'), url('fonts/ntailub.woff') format('woff'), url('fonts/ntailub.ttf') format('truetype'), url('fonts/ntailub.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
