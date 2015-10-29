@@ -2,8 +2,8 @@
 DSM is a Chrome Extension that allows for quick access to word definitions, unit conversions, people look-up, and more.
 
 ## Screenshots
-<img src="https://raw.githubusercontent.com/evgenyo/dsm/master/images/dsm-invalid.JPG" width="400">
-<img src="https://raw.githubusercontent.com/evgenyo/dsm/master/images/dsm-person.JPG" width="400">
+<img src="https://raw.githubusercontent.com/evgenyo/dsm/master/images/dsm-invalid.JPG" width="350">
+<img src="https://raw.githubusercontent.com/evgenyo/dsm/master/images/dsm-person.JPG" width="350">
 
 ## Installation
 Download the extension, and install it through Chrome Extension Settings. Enable Developer Mode and Load Unpacked Extension.
