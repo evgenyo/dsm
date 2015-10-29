@@ -1,0 +1,4 @@
+.DS_Store
+.npm-debug.logs
+src.crx
+src.pem
