@@ -4,6 +4,7 @@
     var input = document.getElementById('dsm-input');
     var invalid = document.getElementById('dsm-invalid');
     var infoT = document.getElementById('dsm-infot');
+    var infoP = document.getElementById('dsm-infop');
     var loader = document.getElementById('dsm-loading-fill');
     var inputValue = "";
 
@@ -42,7 +43,6 @@
 
 
     function xmlRequest(filter) {
-        var infoP = document.getElementById('dsm-infop');
         var xmlhttp = new XMLHttpRequest();
         var assumption = "";
         var xmlData = "";
@@ -98,7 +98,7 @@
     };
 
     function actionTrigger() {
-        inputValue = input.value;
+        inputValue = input.value.trim();
 
         if (inputValue === "") {
             invalidInput();
